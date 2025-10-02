@@ -1,0 +1,76 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="Seite-1" id="s9mmBc4IvUItqEVwBjFz">
+    <mxGraphModel dx="475" dy="280" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JepfNHmPJsH2lSztknhw-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JepfNHmPJsH2lSztknhw-1" target="JepfNHmPJsH2lSztknhw-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JepfNHmPJsH2lSztknhw-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="70" y="30" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JepfNHmPJsH2lSztknhw-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JepfNHmPJsH2lSztknhw-2" target="JepfNHmPJsH2lSztknhw-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JepfNHmPJsH2lSztknhw-2" value="Print: &quot;Hi, here is my calculator." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JepfNHmPJsH2lSztknhw-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JepfNHmPJsH2lSztknhw-4" target="JepfNHmPJsH2lSztknhw-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JepfNHmPJsH2lSztknhw-4" value="Print: &quot;What you wont to do?&lt;br&gt;Addition - write 1&lt;div&gt;Subtraction - write 2&lt;/div&gt;&lt;div&gt;Multiplication - write 3&lt;/div&gt;&lt;div&gt;Division - write 4&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="230" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JepfNHmPJsH2lSztknhw-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JepfNHmPJsH2lSztknhw-6" target="JepfNHmPJsH2lSztknhw-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JepfNHmPJsH2lSztknhw-6" value="Input: what operation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JepfNHmPJsH2lSztknhw-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JepfNHmPJsH2lSztknhw-8" target="JepfNHmPJsH2lSztknhw-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JepfNHmPJsH2lSztknhw-8" value="Print: Write first number" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JepfNHmPJsH2lSztknhw-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JepfNHmPJsH2lSztknhw-10" target="JepfNHmPJsH2lSztknhw-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JepfNHmPJsH2lSztknhw-10" value="Input: first number" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JepfNHmPJsH2lSztknhw-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JepfNHmPJsH2lSztknhw-12" target="JepfNHmPJsH2lSztknhw-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JepfNHmPJsH2lSztknhw-12" value="Print: Write second number" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JepfNHmPJsH2lSztknhw-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JepfNHmPJsH2lSztknhw-14" target="JepfNHmPJsH2lSztknhw-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JepfNHmPJsH2lSztknhw-14" value="Input: second number" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JepfNHmPJsH2lSztknhw-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JepfNHmPJsH2lSztknhw-16" target="JepfNHmPJsH2lSztknhw-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JepfNHmPJsH2lSztknhw-16" value="Operation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JepfNHmPJsH2lSztknhw-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JepfNHmPJsH2lSztknhw-18" target="JepfNHmPJsH2lSztknhw-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JepfNHmPJsH2lSztknhw-18" value="Print: result" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JepfNHmPJsH2lSztknhw-20" value="End" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="690" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JepfNHmPJsH2lSztknhw-22" value="PC CODE&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="13" width="80" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
