@@ -43,13 +43,13 @@ def what_operation(operation_number):
         if operation_number == 1:
             addition(number_1, number_2)
         
-        if operation_number == 2:
+        elif operation_number == 2:
             subtraction(number_1, number_2)
 
-        if operation_number == 3:
+        elif operation_number == 3:
             multiplication(number_1, number_2)
 
-        if operation_number == 4:
+        elif operation_number == 4:
             division(number_1, number_2)
 
 what_operation(operation_number)
