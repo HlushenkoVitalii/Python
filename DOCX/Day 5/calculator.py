@@ -27,7 +27,7 @@ print("Write second number")
 number_2 = input()
 number_2 = int(number_2)
 
-def addition(number_1, number_2):
+def addition(number_1, number_2, result):
         result = number_1 + number_2
 
 def subtraction(number_1, number_2):
@@ -51,6 +51,7 @@ def what_operation(operation_number):
 
         elif operation_number == 4:
             division(number_1, number_2)
+
 
 what_operation(operation_number)
 
