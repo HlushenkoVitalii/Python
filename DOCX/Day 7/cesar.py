@@ -2,28 +2,48 @@
 
 
 ALPHABET = [
-    'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
+    ' ', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
     'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'
 ]
 
+ALPHABET_len = len(ALPHABET)
 
-#this function do encyption
-def encrypt()->str:
-    klar_text = input("\nplease enter Text to be encrypted:")
+# this fuction ask user for key encryption and return int
+def get_Key()->int:
+    # because allways what user typed in cli will be saved as string!
     key = input("please enter encryption Key:")
-    for charecter in klar_text:
-        print(f"\n {charecter}")
-        print(f" index position in kunde text for Alphabet is: " + str(ALPHABET.index(charecter)))
+    # we mast change the type to int
+    key = int(key)
+    return key
 
-        new_charected_index = ALPHABET.index(charecter)+int(key)
-        encryptedChar = ALPHABET[new_charected_index]
-        print(f"it is encrypted to " + encryptedChar)
-    return "it is encrypted " + klar_text + " and " + str(key)
+
+# this function do encyption
+def encrypt()->str:
+    result = ""
+    # klar text in what user typed for exmple jojo
+    klar_text = input("\nplease enter Text to be encrypted:")
+    key = get_Key()
+    for character in klar_text:
+        # we find position of each charecter in our ALPHABET ARRAY
+        # 
+        alphabet_index = ALPHABET.index(character)
+        new_character_index = alphabet_index+key
+
+        encrypted_Character_index = new_character_index % len(ALPHABET)
+        result += ALPHABET[encrypted_Character_index]
+    return result
 
 def decode()->str:
-    cypher_text = input("\nplease enter Text to be DECRYPTED:")
-    key = input("please enter DECRYPTED KEY:")
-    return "it is DECRYPTED from " + cypher_text + " and KEY " + key
+    result = ""
+    klar_text = input("\nplease enter Text to be DECRYPTED:")
+    key = get_Key()
+    for character in klar_text:
+        alphabet_index = ALPHABET.index(character)
+        new_character_index = alphabet_index-key
+
+        encrypted_Character_index = new_character_index % len(ALPHABET)
+        result += ALPHABET[encrypted_Character_index]
+    return result
 
 
 
