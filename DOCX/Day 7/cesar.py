@@ -1,13 +1,15 @@
 # implementation Cesar Encryption
 
 #this function do encyption
-def encrypt(klar_text:str, key:int)->str:
+def encrypt()->str:
+    klar_text = input("\nplease enter Text to be encrypted:")
+    key = input("please enter encryption Key:")
     return "it is encrypted " + klar_text + " and " + str(key)
 
-def decode(encrypted: str, key:int )->str:
-    return "it is decoded text"
-
-
+def decode()->str:
+    cypher_text = input("\nplease enter Text to be DECRYPTED:")
+    key = input("please enter DECRYPTED KEY:")
+    return "it is DECRYPTED from " + cypher_text + " and KEY " + key
 
 
 
@@ -17,11 +19,11 @@ def main():
     userChoice = input("If you want decrypt press d or encrypt press e: ")
     
     if(userChoice == "e"):
-        result = encrypt("jojo", 5)
+        result = encrypt()
     elif(userChoice == "d"):
-        result = decode("something", 4)
+        result = decode()
     else:
-        result = ""
+        result = "you must only press e or d!"
 
     print(result)
 
